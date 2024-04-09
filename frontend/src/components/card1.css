@@ -1,0 +1,19 @@
+.card1:hover div:nth-child(1),
+.card1:has(input:checked) div:nth-child(1) {
+  top: -100px;
+}
+
+.card1:hover,
+.card1:has(input:checked) {
+  border: 1px solid rgb(251, 37, 230);
+}
+
+.card1:hover div:nth-child(2),
+.card1:has(input:checked) div:nth-child(2) {
+  margin-top: 100px;
+}
+
+.card1:hover div:nth-child(2) p,
+.card1:has(input:checked) div:nth-child(2) p {
+  display: block;
+}
